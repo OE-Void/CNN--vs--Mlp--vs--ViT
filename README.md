@@ -4,11 +4,13 @@ This repo have a the code and assets related to comaprison of the top 3 best arc
 
 we will be rabnking all 3 arctitectures on the basis of speed for training and accuracy on a given tasks with a ceritain size dataset 
 
-dataset used :  Mnist
+**info**
 
-Train-Split size:  60k samples
+- dataset used :  Mnist
 
-Test-Split size:  10k samples 
+- Train-Split size:  60k samples
+
+- Test-Split size:  10k samples 
 ## results
 ```Bash
 #Terminal
