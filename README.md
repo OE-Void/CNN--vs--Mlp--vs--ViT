@@ -120,6 +120,16 @@ After training all three architectures (MLP, CNN, ViT) on the **MNIST dataset** 
     - On smaller datasets like MNIST (only 60k samples), ViTs tend to underperform compared to CNNs.  
   - Despite lower accuracy here, ViTs shine when trained on huge datasets with diverse image structures.
 
+## Training Results
+
+**Validation Accuracy:**
+
+![Validation Accuracy](assets/val_accuracy.png)
+
+**Validation Loss:**
+
+![Validation Loss](assets/val_loss.png)
+
 ---
 
 ## Conclusion
