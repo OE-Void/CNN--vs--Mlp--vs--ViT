@@ -1,8 +1,12 @@
 ## Comparing the most promising architecture for AI image processing of the decade
 
-This repo have a the code and assets related to comaprison of the top 3 best archiecture used widely for image related tasks (eg. image-detecttion, image -classifiaticon etc) 
+**Repository Overview**  
 
-we will be rabnking all 3 arctitectures on the basis of speed for training and accuracy on a given tasks with a ceritain size dataset 
+This repository contains the code and assets for a comparison of the **top 3 architectures** widely used in image‑related tasks (e.g., image detection, image classification, etc.).  
+
+We will be ranking all three architectures based on:  
+- **Training speed**  
+- **Accuracy** on a given task with a dataset of a certain size  
 
 **info**
 
@@ -10,7 +14,8 @@ we will be rabnking all 3 arctitectures on the basis of speed for training and a
 
 - Train-Split size:  60k samples
 
-- Test-Split size:  10k samples 
+- Test-Split size:  10k samples
+  
 ## results
 ```Bash
 #Terminal
