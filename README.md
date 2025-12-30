@@ -89,5 +89,47 @@ MLP: Params=932,362 | Time=29.8s | Final Val Acc=0.9801
 CNN: Params=467,818 | Time=59.9s | Final Val Acc=0.9935
 ViT: Params=504,330 | Time=136.1s | Final Val Acc=0.9805
 ```
-# CNN
+---
+
+## Benchmark Analysis
+
+After training all three architectures (MLP, CNN, ViT) on the **MNIST dataset** (60k training samples, 10k test samples), the following observations were made:
+
+
+- **CNN (Convolutional Neural Network)**  
+  - Moderate training time (~60s).  
+  - Achieved the **highest accuracy** (~99.35%).  
+  - CNNs excel at image tasks because they exploit local spatial patterns (edges, textures, shapes).  
+  - Best suited for small to medium‑scale image datasets like MNIST.
+
+- **MLP (Multi‑Layer Perceptron)**  
+  - Fastest training time (~30s).  
+  - Achieved ~98% validation accuracy.  
+  - Good baseline, but limited in capturing spatial features of images.
+
+- **ViT (Vision Transformer)**  
+  - Longest training time (~136s).  
+  - Achieved ~98.05% validation accuracy, slightly lower than CNN.  
+  - **Reason**: Vision Transformers are designed for **large‑scale datasets** (e.g., ImageNet with millions of samples).  
+    - They rely heavily on massive amounts of data to learn effective attention patterns.  
+    - On smaller datasets like MNIST (only 60k samples), ViTs tend to underperform compared to CNNs.  
+  - Despite lower accuracy here, ViTs shine when trained on huge datasets with diverse image structures.
+
+---
+
+## Conclusion
+
+- **Winner on MNIST**: **CNN** — best balance of speed and accuracy.  
+- **MLP**: Lightweight and fast, but less accurate.  
+- **ViT**: Powerful architecture for large‑scale image datasets, but not optimal for MNIST due to limited sample size.  
+
+---
+
+## Summary Table
+
+| Architecture | Params   | Training Time | Final Val Accuracy | Notes |
+|--------------|----------|---------------|--------------------|-------|
+| **MLP**      | 932,362  | 29.8s         | 98.01%             | Fast baseline, weaker spatial learning |
+| **CNN**      | 467,818  | 59.9s         | **99.35%**         | Best performer on MNIST |
+| **ViT**      | 504,330  | 136.1s        | 98.05%             | Needs larger datasets to shine |
 
