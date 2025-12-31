@@ -124,13 +124,15 @@ After training all three architectures (MLP, CNN, ViT) on the **MNIST dataset** 
 
 - **Validation Accuracy:**
 
-![Validation Accuracy](<img width="1000" height="600" alt="val_accuracy" src="https://github.com/user-attachments/assets/3b257693-f49c-49e9-aa07-9360d19ec5b5" />
-)
+
+<img width="1000" height="600" alt="val_accuracy" src="https://github.com/user-attachments/assets/052e4375-c05a-4ff9-b135-f781eca3aacf" />
+
 
 - **Validation Loss:**
 
-![Validation Loss](<img width="1000" height="600" alt="val_loss" src="https://github.com/user-attachments/assets/3b9622a1-8d08-4548-aa9b-14414ce4323b" />
-)
+<img width="1000" height="600" alt="val_loss" src="https://github.com/user-attachments/assets/bf6e33e4-2e27-4276-9d30-260b8527f715" />
+
+
 
 ---
 
